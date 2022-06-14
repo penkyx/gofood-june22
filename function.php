@@ -50,6 +50,7 @@ function save($filename, $content)
     fputs($save, "$content\r\n");
     fclose($save);
 }
+
 function nama()
     {
     $ch = curl_init();
